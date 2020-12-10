@@ -1,0 +1,17 @@
+spring:
+  jackson:
+    deserialization:
+      fail-on-unknown-properties: true
+  rabbitmq:
+    listener:
+      acknowledge-mode: manual
+    host: ${rabbitmq.host:localhost}
+    port:  ${rabbitmq.port:5672}
+    username: ${rabbitmq.username:guest}
+    password: ${rabbitmq.password:guest}
+logging:
+  level:
+    org:
+      springframework:
+        statemachine:
+          support: ERROR

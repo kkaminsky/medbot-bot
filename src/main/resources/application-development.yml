@@ -1,0 +1,19 @@
+telegram:
+  botId: 1104890578
+  username: kk_tezt_bot
+  token: 1104890578:AAHZnxNxyQ302E3rbs3FjV6QmLvL9FiWVdQ
+
+project-manager:
+  host: http://127.0.0.1
+  #host: http://localhost
+  port: 8181
+
+server:
+  port: 8383
+
+rabbitmq:
+  username: guest
+  password: guest
+  host: localhost
+  port: 5672
+  syncqueue: dev-account-sync
